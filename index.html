@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <video playsinline autoplay muted loop poster="binary.jpg" >
+        <source src="vidbck.webm" type="video/webm">   
+    </video>
+    <div >
+        
+    <header id="nav-header">
+        <button class="my-button" onclick="changeWebsiteColors()">
+            <img src="melogo.jpg" alt="dark logo">
+            <span>dark</span>
+        </button>
+        
+        <div class="nav-container">
+            <a href="index.html" target="_self">Home</a>
+            <a href="about.html" target="_parent">About</a>
+        </div>
+    </header>
+       
+    <section id="home">
+        <div class="img-container">
+            <img src="snapshot1.jpg" alt="logo" class="img1" tiling>
+        </div>
+        
+        <div class="text-container">
+            <p>Hi, im </p>
+            <div class="container">
+                <h1 class="text">MUGAMBI NJENGA</h1>
+              </div>
+              
+             
+            
+            <button id="btn">
+                Change color
+            </button>
+           
+        </div>
+    </section>
+</div>
+    <footer id="nav-footer">
+        <h2>Contact me</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" id="sendmess">Send message</button>
+        </form>
+            <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
